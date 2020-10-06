@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		#a {
+			text-align: center;
+		}
+		table,tr,td {
+			border: 1px solid;
+			border-collapse: collapse;
+		}
+		td {
+			padding: 40px;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		tanle,tr,td{
+			border: 1px solid black;
+		}
+		.c1{
+			width: 20px;
+			height: 40px;
+		}
+		.c2{
+			width: 40px;
+			height: 40px;
+		}
+		.c3{
+			width: 20px;
+			height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<hr>
+	<div>
+		<form >
+			<p>
+			<label for="xm">姓名：</label>
+			<input type="text" name="xingming" id="xm">
+			</p>
+			<p>
+			<label for="mm">密码：</label>
+			<input type="text" name="mima" id="mm">
+			</p>
+      <p>
+      	<label for="">性别：</label>
+      	<input type="radio" name="nv" id="nv" checked>
+      	<label for="nv" ch>女</label>
+      	<input type="radio" name="nv" id="nan">
+      	<label for="nan">男</label>
+      </p>
+      <p>
+      	<label for="">年龄：</label>
+      	<select>
+      	<option value="10">10</option>
+      	<option value="20" selected >20</option>
+      	<option value="30">30</option>
+      	</select>
+      </p>
+      <p>
+      	<label for="">爱好：</label>
+      	<input type="checkbox" name="dushu" id="ds" checked>
+      	<label for="ds">读书</label>
+      	<input type="checkbox" name="yingyue" id="yy" checked>
+      	<label for="yy">音乐</label>
+      	<input type="checkbox" name="shangwang" id="sw" checked>
+      	<label for="sw">上网</label>
+      </p>
+      <p>
+      	<label for="jz">简介：</label>
+      	<textarea id="jz" name="" rows="10" cols="30"></textarea>
+      </p>
+      <p>
+      	<input type="button" value="提交">
+      	<input type="button" value="重置">
+      </p>
+		</form>
+	</div>
+	<hr>
+	<div>
+		<form >
+			<p>
+			<label for="name">name</label>
+			<input type="text" name="name" id="name">
+			</p>
+			<p>
+			<label for="pwd">pwd</label>&nbsp;
+			<input type="text" name="pwd" id="pwd">
+			</p>
+			<p>
+      	<label for="">sex</label>
+      	<input type="radio" name="male" id="male" checked>
+      	<label for="nv" ch>male</label>
+      	<input type="radio" name="female" id="female">
+      	<label for="nan">female</label>
+      </p>
+      <p>
+      	<label for="">age</label>
+      	<select>
+      	<option value="1" selected>1</option>
+      	<option value="2"  >2</option>
+      	<option value="3">3</option>
+      	</select>
+      </p>
+      <p>
+      	<label for="">course</label>
+      	<input type="checkbox" name="Chinese" id="C" >
+      	<label for="ds">Chinese</label>
+      	<input type="checkbox" name="Math" id="M" >
+      	<label for="yy">Math</label>
+      	<input type="checkbox" name="English" id="E" >
+      	<label for="sw">English</label>
+      </p>
+      <p>
+      	<input type="button" value="Submit it!">
+      	<input type="button" value="Reset it!">
+      </p>
+		</form>
+	</div>
+	<hr>
+	<div>
+		<form >
+			<h1 id="a">会员注册表</h1>
+			<p>
+				<label for="yhm">用户名：</label>
+			  <input type="text" name="yhm" id="yhm" value="请输入姓名">
+			</p>
+			<p>
+			<label for="mi">密码：&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" name="mi" id="mi">
+			</p>
+			<p>
+      	<label for="">性别：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      	<input type="radio" name="nv" id="na">
+      	<label for="na">男</label>
+      	<input type="radio" name="nv" id="n" >
+      	<label for="n" ch>女</label>
+      </p>
+       <p>
+      	<label for="">爱好：</label>
+      	<input type="checkbox" name="shangwang" id="sh" >
+      	<label for="sh">上网</label>
+      	<input type="checkbox" name="langqui" id="lq" >
+      	<label for="lq">篮球</label>
+      	<input type="checkbox" name="zuqui" id="zq" >
+      	<label for="zq">足球</label>
+      	<input type="checkbox" name="guangjei" id="gj" >
+      	<label for="gj">逛街</label>
+      	<input type="checkbox" name="changge" id="cg" >
+      	<label for="cg">唱歌</label>
+      	<input type="checkbox" name="tiaowu" id="tw" >
+      	<label for="tw">跳舞</label>
+      	<input type="checkbox" name="paiqui" id="pq" >
+      	<label for="pq">排球</label>
+      </p>
+      <p>
+      	<label for="">居住地：</label>
+      	<select>
+      	<option >--请选择--</option>
+      	<option >河北省</option>
+      	<option >山西省</option>
+      	<option >湖北省</option>
+      	<option >云南省</option>
+      	</select>
+      </p>
+      <p>
+				<label for="tel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel:</label>
+			  <input type="text" name="tel" id="tel" value="请输入姓名">
+			</p>
+			<p>
+				<label for="e">E-mail:</label>
+			  <input type="text" name="e" id="e" >
+			</p>
+			<p>
+      	<label for="bz">备注：</label>
+      	<textarea id="bz" name="" rows="10" cols="30"></textarea>
+      </p>
+      <p>
+      	<input type="button" value="注册">
+      	<input type="button" value="取消">
+      </p>
+		</form>
+	</div>
+	<hr>
+	<hr>
+   <table>
+		<tr>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr>
+	<table>
+		<tr>
+			<td colspan="2"></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr>
+	<table>
+		<tr>
+			<td rowspan="2" class="c1"></td>
+			<td rowspan="2" colspan="2" class="c2"></td>
+			<td rowspan ="2" class="c1"></td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td rowspan="2" class="c1"></td>
+			<td colspan="2"></td>
+			<td rowspan="2" class="c1"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			</tr>
+		<tr>
+			<td class="c3"></td>
+			<td colspan="2"></td>
+			<td class="c3"></td>
+		</tr>
+	</table>
+</body>
+</html>
